@@ -17,7 +17,7 @@ public class ScrollByPixel {
         js.executeScript("window.scrollBy(0, 2500)");
 
         js.executeScript("window.scrollBy(0, -2500)");
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         driver.close();
     }
 }
