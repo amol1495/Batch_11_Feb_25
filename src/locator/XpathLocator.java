@@ -15,7 +15,7 @@ public class XpathLocator {
         driver.findElement(By.xpath("//a[text()='Money']")).click();
 
 
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         driver.close();
 
     }
